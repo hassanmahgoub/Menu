@@ -14,9 +14,10 @@
 body {
   margin: 0;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, "Apple Color Emoji", "Segoe UI Emoji";
-  background: radial-gradient(1200px 500px at 80% -10%, #e7262f, transparent 10%),
-              radial-gradient(300px 220px at 30% 10%, #f4a624, transparent 0%),
+  background: radial-gradient(1200px 50px at 80% -10%, #f4a624, transparent 20%),
+              radial-gradient(700px 420px at 30% 10%, #f4a624, transparent 0%),
               var(--bg);
+              
   color: var(--text);
   min-height: 100vh;
 }
@@ -43,6 +44,7 @@ body {
   width: 90px;
   height: 90px;
   display: flex;
+  
   /* justify-content: center; */
 }
 
@@ -81,7 +83,8 @@ body {
   gap: 10px;
   font-size: 16px;
   font-weight: 800;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  margin-top: 10px;
   
 }
 
@@ -130,28 +133,37 @@ body {
   margin-top: 2px;
   color: var(--muted);
   font-size: 12px;
-  color: white;
+  /* color: #e7262f; */
 }
 
 .footer-note {
   margin: 22px 0 26px;
+  
 }
 
 .footer-note__box {
   background: var(--card-2);
-  border: 1px dashed rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.16);
   border-radius: 14px;
   padding: 14px 12px;
+  
 }
 
 .footer-note__title {
-  font-weight: 850;
-  margin-bottom: 6px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  color: #f4a624;
+  
 }
 
 .footer-note__text {
   color: var(--muted);
   font-size: 12.5px;
   line-height: 1.55;
+  
 }
 
